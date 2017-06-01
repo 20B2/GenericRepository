@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GR.Mvc.UI", "GR.Mvc.UI\GR.Mvc.UI.csproj", "{B055A913-7099-454C-8607-4C75E537C7CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared Project", "Shared Project", "{66A90E5C-83BB-402B-A2BD-E56B70CA739D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GR.Data", "GR.Data\GR.Data.csproj", "{57BF3B9B-223E-43AE-AA6B-A24F99EAF909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{B055A913-7099-454C-8607-4C75E537C7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B055A913-7099-454C-8607-4C75E537C7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B055A913-7099-454C-8607-4C75E537C7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BF3B9B-223E-43AE-AA6B-A24F99EAF909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BF3B9B-223E-43AE-AA6B-A24F99EAF909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BF3B9B-223E-43AE-AA6B-A24F99EAF909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BF3B9B-223E-43AE-AA6B-A24F99EAF909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57BF3B9B-223E-43AE-AA6B-A24F99EAF909} = {66A90E5C-83BB-402B-A2BD-E56B70CA739D}
 	EndGlobalSection
 EndGlobal
